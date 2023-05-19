@@ -56,6 +56,7 @@ This website uses the CSS and JavaScript library to beautify the website and mak
 When users visit the website they are initially sent to the login page where they can login if they have an account. If they don't have an account they can make their way over to the registration page where they can register for an account and after registering they can login in. After login in they are greeted with a welcome message on our main page where they will see the top books on our site and a navigation to get access to the rest of the website.
 
 ![Figure 1: Website Flowchart](https://media.discordapp.net/attachments/1081311787821043805/1109100595136176128/6Lvxm3oAAAAASUVORK5CYII.png?width=895&height=671)
+
 Figure 1: Website Flowchart
 
 This flowchart shows how the website flows together. Each page is connected to a template navbar that when on each page will use JavaScript to add a class to show which page is active.
