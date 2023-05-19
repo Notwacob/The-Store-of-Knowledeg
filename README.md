@@ -15,7 +15,29 @@ The goal of the current project is to build a top-notch online bookstore that gi
 - [Introduction](#introduction)
 - [Design](#design)
 	- [Bootstrap](#bootstrap)
+- [Website Flow](#website-flow)
 - [Tables](#tables)
+- [Pages](#pages)
+	- [login.php](#login.php)
+	- [registration.php](#registration.php)
+	- [db.php](#db.php)
+	- [auth_session.php](#auth_session.php)
+	- [main.php](#main.php)
+	- [navbar.php](#navbar.php)
+	- [about.php](#about.php)
+	- [cart.php](#cart.php)
+	- [wishList.php](#wishList.php)
+	- [profile.php](#profile.php)
+	- [logout.php](#logout.php)
+	- [bookSearch.php](#bookSearch.php)
+	- [searchOutput.php](#searchOutput.php)
+	- [searchApiOutput.php](#searchApiOutput.php)
+	- [bookRequest.php](#bookRequest.php)
+	- [bookReview.php](#bookReview.php)
+	- [admin/showUsers.php](#admin-showUsers.php)
+	- [admin/adminRequest.php](#admin-adminRequest.php)
+- [Conclusion](#conclusion)
+- [Work Cited](#work-cited)
 
 ## Introduction
 
@@ -187,7 +209,7 @@ On the action page, the system will update the book's rating and total number of
 ![Figure 23: Book Review Page ](https://cdn.discordapp.com/attachments/1081311787821043805/1109117128214323331/image.png)
 Figure 23: Book Review Page 
 
-### admin/showUsers.php
+<h3 id="admin-showUsers.php">admin/showUsers.php</h3>
 
 The "show users" page is an essential feature of the user management system, displaying a list of all the users in the system, along with their relevant information, such as their username, user's name, account type, password hash, the number of times they've logged in, and the last time they logged in. Each user's information is accompanied by three buttons, which are linked to their account: "change user type," "change password," and "delete user."
 
@@ -198,7 +220,7 @@ The "change user type" button allows the admin to change a user's account type, 
 ![Figure 23: Show User Page](https://cdn.discordapp.com/attachments/1081311787821043805/1109117440358621254/image.png)
 Figure 23: Show User Page
 
-### admin/adminRequest.php
+<h3 id="admin-adminRequest.php">admin/adminRequest.php</h3>
 
 The adminRequest.php page is an important part of the user management system, handling requests made when the "change user type," "change password," or "delete user" buttons are clicked on the "show users" page. When the admin clicks the "change password" button, the page generates a form for them to enter a new password for the user. This process ensures that the password is updated securely, with no errors or unauthorized access.
 
@@ -207,12 +229,13 @@ The adminRequest.php page is an important part of the user management system, ha
 In concussion this site is a user-friendly way for book lovers to find and rate books and this project was a great way for me to think more outside the box with ideas and not just to go for easy robust projects but to make this website something that I would be happy to put on my portfolio. This project jumps deep into responsive web design and how it can be very impactful for users to experience an easy to use site for everyday use. This is a key factory as to why amazon is so successful because of its user-friendliness and it was the key factory that was in my head when designing this site.
 
 ## Works Cited
-<svg fill="none" viewBox="0 0 0 0" width="0" height="0" xmlns="http://www.w3.org/2000/svg">
-	<foreignObject width="100%" height="100%">
-		<div xmlns="http://www.w3.org/1999/xhtml">
-			<style>  
-			</style>
-			<h1>HELLO WORLD!</h1>
-		</div>
-	</foreignObject>
-</svg>
+
+http://zeus.vwu.edu/~jawilson/CS_489/
+
+Gardner, Brett S. "Responsive web design: Enriching the user experience." Sigma Journal: Inside the Digital Ecosystem 11.1 (2011): 13-19.
+
+Thornton, Jacob, and Mark Otto. “Bootstrap.” Bootstrap · The Most Popular HTML, CSS, and JS Library in the World., [https://getbootstrap.com/](https://getbootstrap.com/).
+
+Wang, Zizhong John. “Web Programmming with PHP/MYSQL” Virginia Wesleyan University, 2020.
+
+"Stack Overflow." Stack Overflow. Web. 23 Apr. 2015.
