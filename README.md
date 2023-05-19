@@ -55,8 +55,10 @@ This website uses the CSS and JavaScript library to beautify the website and mak
 
 When users visit the website they are initially sent to the login page where they can login if they have an account. If they don't have an account they can make their way over to the registration page where they can register for an account and after registering they can login in. After login in they are greeted with a welcome message on our main page where they will see the top books on our site and a navigation to get access to the rest of the website.
 
-![Figure 1: Website Flowchart](https://media.discordapp.net/attachments/1081311787821043805/1109100595136176128/6Lvxm3oAAAAASUVORK5CYII.png?width=895&height=671)
-<figcaption>Figure 1: Website Flowchart</figcaption><br><br>
+<figure align="center">
+	<img src="https://cdn.discordapp.com/attachments/1081311787821043805/1109129725135310858/Website_Flow.jpg" alt="Figure 1: Website Flowchart">
+	<figcaption>Figure 1: Website Flowchart</figcaption>
+</figure>
 
 This flowchart shows how the website flows together. Each page is connected to a template navbar that when on each page will use JavaScript to add a class to show which page is active.
 
@@ -64,30 +66,40 @@ This flowchart shows how the website flows together. Each page is connected to a
 
 The initial table created via MYSQL contains important information regarding user login credentials. Upon registration, each user's password is encrypted using the md5 format to guarantee that their accounts remain secure from any unauthorized access, such as hacking. The table is named "users," and we refer to it each time we access the user data. Within this table, each user account is assigned a unique ID number, a display name or username, a password, a first and last name, a login count, and the date and time of their most recent login.
 
-![Figure 2: users table](https://media.discordapp.net/attachments/1081311787821043805/1109102334895730719/B2dWawURHhkFCiI3h9eXDDdmTPM4ShlMLFyZ4g1HNbXMdO5KBu1bjQERkNgNARGQ2A0BEZDYDQEqBsCALsycpRzfERkAAAAAElFTkSuQmCC.png)
-<figcaption>Figure 2: users table</figcaption><br><br>
+<figure align="center">
+	<img src="https://media.discordapp.net/attachments/1081311787821043805/1109102334895730719/B2dWawURHhkFCiI3h9eXDDdmTPM4ShlMLFyZ4g1HNbXMdO5KBu1bjQERkNgNARGQ2A0BEZDYDQEqBsCALsycpRzfERkAAAAAElFTkSuQmCC.png" alt="Figure 2: users table">
+	<figcaption>Figure 2: users table</figcaption>
+</figure>
 
 The next table created via MYSQL stores all of the relevant information pertaining to books. This table, aptly named "bookList," is home to a comprehensive list of each book's details, including a unique record number and works ID, the book's title, author's name, initial publication year, edition number, rating score, and total number of ratings received.
 
-![Figure 3: bookList Table](https://media.discordapp.net/attachments/1081311787821043805/1109102335235457134/wHTdjPWuf6kjQAAAABJRU5ErkJggg.png)
-<figcaption>Figure 3: bookList Table</figcaption><br><br>
+<figure align="center">
+	<img src="https://media.discordapp.net/attachments/1081311787821043805/1109102335235457134/wHTdjPWuf6kjQAAAABJRU5ErkJggg.png" alt="Figure 3: bookList Table">
+	<figcaption>Figure 3: bookList Table</figcaption>
+</figure>
 
 Another MYSQL table is dedicated to storing information about each user's cart. Aptly named "cart," this table is where we keep track of the user's username, the title and author's name of each book added to the cart, and the corresponding quantity of each book.
 
-![Figure 4: cart Table](https://media.discordapp.net/attachments/1081311787821043805/1109102335516487691/tAAAAAElFTkSuQmCC.png)
-<figcaption>Figure 4: cart Table</figcaption><br><br>
+<figure align="center">
+	<img src="https://media.discordapp.net/attachments/1081311787821043805/1109102335516487691/tAAAAAElFTkSuQmCC.png" alt="Figure 4: cart Table">
+	<figcaption>Figure 4: cart Table</figcaption>
+</figure>
 
 The last MYSQL table is dedicated to storing each user's personal book wishlist. Appropriately named "wishlist," this table contains columns for the user's username, the title and author's name of each book added to the wishlist, and the corresponding quantity of each book.
 
-![Figure 5: wishList Table](https://media.discordapp.net/attachments/1081311787821043805/1109102335810076782/wdmCm6ZW2HcagAAAABJRU5ErkJggg.png)
-<figcaption>Figure 5: wishList Table</figcaption>
+<figure align="center">
+	<img src="https://media.discordapp.net/attachments/1081311787821043805/1109102335810076782/wdmCm6ZW2HcagAAAABJRU5ErkJggg.png" alt="Figure 5: wishList Table">
+	<figcaption>Figure 5: wishList Table</figcaption>
+</figure>
 
 ## Pages
 
 ### login.php
 
-![Figure 6: Login Page](https://cdn.discordapp.com/attachments/1081311787821043805/1109106935992701032/image.png)
-<figcaption>Figure 6: Login Page</figcaption><br><br>
+<figure align="center">
+	<img src="https://cdn.discordapp.com/attachments/1081311787821043805/1109106935992701032/image.png" alt="Figure 6: Login Page">
+	<figcaption>Figure 6: Login Page</figcaption>
+</figure>
 
 When you visit our Online Bookstore for the first time, you will be greeted by the login page. Here, you can either log in to your existing account or create a new one by clicking the click to register link. To log in, simply provide your username and password in the form provided on the page.
 
@@ -95,8 +107,10 @@ After entering your login details, our system will validate the information you 
 
 ### registration.php
 
-![Figure 7: Registration Page](https://cdn.discordapp.com/attachments/1081311787821043805/1109107304084811847/image.png)
-<figcaption>Figure 7: Registration Page</figcaption><br><br>
+<figure align="center">
+	<img src="https://cdn.discordapp.com/attachments/1081311787821043805/1109107304084811847/image.png" alt="Figure 7: Registration Page">
+	<figcaption>Figure 7: Registration Page</figcaption>
+</figure>
 
 On the Registration page users will be able to register for an account on the site they will need to enter a username, password, and first and last name. When they click the registration button they will either receive an error message stating that information was not entered correctly or that their account has been registered correctly and redirect them to the login page.
 
@@ -111,11 +125,15 @@ This code section is an essential component of the user authentication system, p
 ### main.php
 Upon successfully logging in, the user will be directed to the website's main page, which features an eye-catching cover image and a personalized welcome message using the first and last name provided during registration. As the user navigates down the page, they will come across the site's navigation bar, which we will discuss in more detail later on. In addition to this, the main page displays the top 16 highest-rated books from our extensive collection, allowing users to quickly and easily discover new reads. Overall, the main page serves as a welcoming and user-friendly hub that provides a glimpse into the website's vast offerings, encouraging users to further explore the site.
 
-![Figure 8: main page cover image and welcome message.](https://media.discordapp.net/attachments/1081311787821043805/1109108160637194280/image.png)
-<figcaption>Figure 8: main page cover image and welcome message.</figcaption><br><br>
+<figure align="center">
+	<img src="https://media.discordapp.net/attachments/1081311787821043805/1109108160637194280/image.png" alt="Figure 8: main page cover image and welcome message.">
+	<figcaption>Figure 8: main page cover image and welcome message.</figcaption>
+</figure>
 
-![Figure 9: main page top book layout](https://cdn.discordapp.com/attachments/1081311787821043805/1109108160985305238/image.png)
-<figcaption>Figure 9: main page top book layout</figcaption>
+<figure align="center">
+	<img src="https://cdn.discordapp.com/attachments/1081311787821043805/1109108160985305238/image.png" alt="Figure 9: main page top book layout">
+	<figcaption>Figure 9: main page top book layout</figcaption>
+</figure>
 
 ### navbar.php
 
@@ -123,50 +141,66 @@ The site's navigation is a crucial component of the site access, included on eve
 
 For those with admin user account type, a drop-down menu appears, giving them access to additional features. This admin drop-down menu provides an efficient way for admins to manage the site's content and user accounts, improving their workflow and ensuring that the site runs smoothly.
 
-![Figure 10: Site Navigation](https://media.discordapp.net/attachments/1081311787821043805/1109108725605732402/image1.png)
-<figcaption>Figure 10: Site Navigation</figcaption><br><br>
+<figure align="center">
+	<img src="https://media.discordapp.net/attachments/1081311787821043805/1109108725605732402/image1.png" alt="Figure 10: Site Navigation">
+	<figcaption>Figure 10: Site Navigation</figcaption>
+</figure>
 
-![Figure 11: Hamburger Menu](https://media.discordapp.net/attachments/1081311787821043805/1109108725828026429/image2.png)
-<figcaption>Figure 11: Hamburger Menu</figcaption><br><br>
+<figure align="center">
+	<img src="https://media.discordapp.net/attachments/1081311787821043805/1109108725828026429/image2.png" alt="Figure 11: Hamburger Menu">
+	<figcaption>Figure 11: Hamburger Menu</figcaption>
+</figure>
 
-![Figure 12: Hamburger Menu Dropdown](https://media.discordapp.net/attachments/1081311787821043805/1109108726062923806/image3.png)
-<figcaption>Figure 12: Hamburger Menu Dropdown</figcaption><br><br>
+<figure align="center">
+	<img src="https://media.discordapp.net/attachments/1081311787821043805/1109108726062923806/image3.png" alt="Figure 12: Hamburger Menu Dropdown">
+	<figcaption>Figure 12: Hamburger Menu Dropdown</figcaption>
+</figure>
 
-![Figure 13: Admin Site Navigation](https://media.discordapp.net/attachments/1081311787821043805/1109108726297792582/image4.png)
-<figcaption>Figure 13: Admin Site Navigation</figcaption>
+<figure align="center">
+	<img src="https://media.discordapp.net/attachments/1081311787821043805/1109108726297792582/image4.png" alt="Figure 13: Admin Site Navigation">
+	<figcaption>Figure 13: Admin Site Navigation</figcaption>
+</figure>
 
 ### about.php
 
 "The Store of Knowledge" is a book retailer passionate about books, personal growth, learning, and enjoyment. Their "About Us" page showcases information about the spurious company surrounding the site, including their mission statement and the significance of the site to their fictitious team. The store offers a wide range of books, covering various genres and subjects, curated by experienced and knowledgeable book-lovers. They provide competitive prices, fast shipping, and different formats of books, including physical books, eBooks, and audiobooks. The store also places a strong emphasis on exceptional customer service, with a friendly and knowledgeable team always ready to assist customers.
 
-![Figure 14: About Us Page](https://cdn.discordapp.com/attachments/1081311787821043805/1109109312019775518/image.png)
-<figcaption>Figure 14: About Us Page</figcaption>
+<figure align="center">
+	<img src="https://cdn.discordapp.com/attachments/1081311787821043805/1109109312019775518/image.png" alt="Figure 14: About Us Page">
+	<figcaption>Figure 14: About Us Page</figcaption>
+</figure>
 
 ### cart.php
 The cart page on this e-commerce website displays the cart information of the user's selected items before proceeding to checkout. It includes the book cover, title, author, and the quantity of each book in the cart. In addition, there are three buttons for each book in the cart. The first button increases the quantity of that book, the second button decreases the quantity of that book until zero, where the book will be removed from the cart. Finally, there is a button to remove all of that book from the cart. Along with the product information, the cart page also displays the total number of books within the cart. The cart page has a clear call to action button that prompts users to proceed to checkout and complete their purchase. When this button is clicked it moves the users to an amazon cart with their desired books. It is important for the cart page to be user-friendly and intuitive to ensure that customers have a seamless and hassle-free shopping experience.
 
-![Figure 15: Cart Page](https://cdn.discordapp.com/attachments/1081311787821043805/1109109606262767656/image.png)
-<figcaption>Figure 15: Cart Page</figcaption>
+<figure align="center">
+	<img src="https://cdn.discordapp.com/attachments/1081311787821043805/1109109606262767656/image.png" alt="Figure 15: Cart Page">
+	<figcaption>Figure 15: Cart Page</figcaption>
+</figure>
 
 ### wishList.php
 
 The wishList page is a useful feature that enables users to keep track of the books they want to read. It displays the cover of the book, the title of the book, and the author's name for each book in the user's wish list. Additionally, users can remove a book from their wish list by clicking the delete button, which is available for each book displayed.
 
-![Figure 16: Wishlists page](https://cdn.discordapp.com/attachments/1081311787821043805/1109109852824940604/image.png)
-<figcaption>Figure 16: Wishlists page</figcaption>
+<figure align="center">
+	<img src="https://cdn.discordapp.com/attachments/1081311787821043805/1109109852824940604/image.png" alt="Figure 16: Wishlists page">
+	<figcaption>Figure 16: Wishlists page</figcaption>
+</figure>
 
 ### profile.php
 
 The profile page is a user-friendly feature that pops up as a modal from the bootstrap library when clicked, allowing users to edit their profile information easily. They can change various details such as their username, password, first name, and last name. Once they've made their desired changes, they can click "save" to confirm their new profile details. This simple and intuitive interface makes it easy for users to customize their account to their liking, without the need for technical expertise or lengthy tutorials.
 
-![Figure 17: Profile Modal](https://cdn.discordapp.com/attachments/1081311787821043805/1109110678645657760/image.png)
-<figcaption>Figure 17: Profile Modal</figcaption><br><br>
+<figure align="center">
+	<img src="https://cdn.discordapp.com/attachments/1081311787821043805/1109110678645657760/image.png" alt="Figure 17: Profile Modal">
+	<figcaption>Figure 17: Profile Modal</figcaption>
+</figure>
 
-![Figure 18: Profile Modal after hitting “Edit Profile” button](https://cdn.discordapp.com/attachments/1081311787821043805/1109115489277448202/fix_1.jpg)
-<figcaption>
-	Figure 18: Profile Modal after hitting “Edit Profile” button<br>
-	*Personal information blocked out in this screenshot
-</figcaption>
+<figure align="center">
+	<img src="https://cdn.discordapp.com/attachments/1081311787821043805/1109115489277448202/fix_1.jpg" alt='Figure 18: Profile Modal after hitting “Edit Profile” button'>
+	<figcaption>Figure 18: Profile Modal after hitting “Edit Profile” button<br>
+	*Personal information blocked out in this screenshot</figcaption>
+</figure>
 
 ### logout.php
 
@@ -176,22 +210,28 @@ The logout page is a straightforward feature of the user management system. As t
 
 Included in the navbar.php page is a section of code that enables users to search our extensive database of books for the title they are seeking. With this feature, users can quickly and easily locate their desired book by entering the title into the search bar, saving them valuable time and effort. This search function provides a seamless experience for our users, enhancing their overall satisfaction with our website and making it easier for them to find what they're looking for.
 
-![Figure 19: The website’s search form](https://cdn.discordapp.com/attachments/1081311787821043805/1109116116485275668/image.png)
-<figcaption>Figure 19: The website’s search form</figcaption>
+<figure align="center">
+	<img src="https://cdn.discordapp.com/attachments/1081311787821043805/1109116116485275668/image.png" alt="Figure 19: The website’s search form">
+	<figcaption>Figure 19: The website’s search form</figcaption>
+</figure>
 
 ### searchOutput.php
 
 The search output page will take a string put into the navbar’s search box and search our database for all of the books titles and authors that match that word. For example, when you search for the word “good” the screenshot below shows which books have that word in their title or as an author. At the time the screenshot was taken there were only two results in our database from that search. If the users can not find the book they were looking for within our database at the bottom of the table there is a form where they can enter the name of the book they want and it will display the results from the openlibrary Api.
 
-![Figure 20: Search Output Page](https://cdn.discordapp.com/attachments/1081311787821043805/1109116347088109658/image.png)
-<figcaption>Figure 20: Search Output Page</figcaption>
+<figure align="center">
+	<img src="https://cdn.discordapp.com/attachments/1081311787821043805/1109116347088109658/image.png" alt="Figure 20: Search Output Page">
+	<figcaption>Figure 20: Search Output Page</figcaption>
+</figure>
 
 ### searchApiOutput.php
 
 The search API output page is a helpful tool for users who can't find the book they're looking for in our database. By searching the openlibrary API, they can get access to additional results directly on our site. When searching for a common word like "good," the API returns a large number of results. To keep things efficient and quick, we limit the number of results shown to the top 50. If a user still can't find what they're looking for, they may need to dig deeper and refine their search further. The screenshot of the search results for "good" provides a clear example of the kind of output users can expect when using this feature.
 
-![Figure 21: Search Api Output Page](https://cdn.discordapp.com/attachments/1081311787821043805/1109116574306144286/image.png)
-<figcaption>Figure 21: Search Api Output Page</figcaption>
+<figure align="center">
+	<img src="https://cdn.discordapp.com/attachments/1081311787821043805/1109116574306144286/image.png" alt="Figure 21: Search Api Output Page">
+	<figcaption>Figure 21: Search Api Output Page</figcaption>
+</figure>
 
 ### bookRequest.php
 
@@ -199,8 +239,10 @@ The book request page is a vital feature that manages all book-related requests,
 
 When a user clicks the Add to Cart button, the book is added to our database and subsequently added to the cart. Alternatively, if the book is already in our database, it will be directly added to the cart. Similarly, when the Add to List button is clicked, the book is either first added to our database and then added to the wishlist or directly added to the wishlist if it's already in our database. Finally, when the Review Book button is clicked, the book is either first added to our database and then the user is redirected to the book review page, or the user is directly redirected to the book review page if the book is already in our database.
 
-![Figure 22: The Three Buttons](https://cdn.discordapp.com/attachments/1081311787821043805/1109116813947699221/image.png)
-<figcaption>Figure 22: The Three Buttons</figcaption>
+<figure align="center">
+	<img src="https://cdn.discordapp.com/attachments/1081311787821043805/1109116813947699221/image.png" alt="Figure 22: The Three Buttons">
+	<figcaption>Figure 22: The Three Buttons</figcaption>
+</figure>
 
 ### bookReview.php
 
@@ -208,8 +250,10 @@ If a user wants to give a particular book a rating, they can click the "review b
 
 On the action page, the system will update the book's rating and total number of ratings in the bookList table, reflecting the user's review. After the update is complete, the user will be redirected back to the home page. This process is straightforward and efficient, allowing users to give books a rating and share their thoughts quickly and easily.
 
-![Figure 23: Book Review Page ](https://cdn.discordapp.com/attachments/1081311787821043805/1109117128214323331/image.png)
-<figcaption>Figure 23: Book Review Page</figcaption>
+<figure align="center">
+	<img src="https://cdn.discordapp.com/attachments/1081311787821043805/1109117128214323331/image.png" alt="Figure 23: Book Review Page">
+	<figcaption>Figure 23: Book Review Page</figcaption>
+</figure>
 
 <h3 id="admin-showUsers.php">admin/showUsers.php</h3>
 
@@ -219,8 +263,10 @@ When an admin clicks one of these buttons, a request is triggered, which goes th
 
 The "change user type" button allows the admin to change a user's account type, such as upgrading a regular user to an admin. Clicking the "change password" button generates a form that enables the admin to reset the user's password securely. Finally, the "delete user" button permits the admin to remove the user account entirely from the system.
 
-![Figure 24: Show User Page](https://cdn.discordapp.com/attachments/1081311787821043805/1109117440358621254/image.png)
-<figcaption>Figure 24: Show User Page</figcaption>
+<figure align="center">
+	<img src="https://cdn.discordapp.com/attachments/1081311787821043805/1109117440358621254/image.png" alt="Figure 24: Show User Page">
+	<figcaption>Figure 24: Show User Page</figcaption>
+</figure>
 
 <h3 id="admin-adminRequest.php">admin/adminRequest.php</h3>
 
