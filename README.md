@@ -57,7 +57,8 @@ When users visit the website they are initially sent to the login page where the
 
 ![Figure 1: Website Flowchart](https://media.discordapp.net/attachments/1081311787821043805/1109100595136176128/6Lvxm3oAAAAASUVORK5CYII.png?width=895&height=671)
 <figcaption>Figure 1: Website Flowchart</figcaption>
-<br>
+
+
 This flowchart shows how the website flows together. Each page is connected to a template navbar that when on each page will use JavaScript to add a class to show which page is active.
 
 ## Tables
