@@ -10,5 +10,5 @@ The goal of the current project is to build a top-notch online bookstore that gi
 
 ## Table of Contents
 
-- [Abstract](#Abstract)
+- [Abstract](#abstract)
 - Table of Contents
