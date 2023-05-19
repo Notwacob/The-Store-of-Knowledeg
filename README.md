@@ -124,13 +124,13 @@ The site's navigation is a crucial component of the site access, included on eve
 For those with admin user account type, a drop-down menu appears, giving them access to additional features. This admin drop-down menu provides an efficient way for admins to manage the site's content and user accounts, improving their workflow and ensuring that the site runs smoothly.
 
 ![Figure 10: Site Navigation](https://media.discordapp.net/attachments/1081311787821043805/1109108725605732402/image1.png)
-<figcaption>Figure 10: Site Navigation</figcaption>
+<figcaption>Figure 10: Site Navigation</figcaption><br><br>
 
 ![Figure 11: Hamburger Menu](https://media.discordapp.net/attachments/1081311787821043805/1109108725828026429/image2.png)
-<figcaption>Figure 11: Hamburger Menu</figcaption>
+<figcaption>Figure 11: Hamburger Menu</figcaption><br><br>
 
 ![Figure 12: Hamburger Menu Dropdown](https://media.discordapp.net/attachments/1081311787821043805/1109108726062923806/image3.png)
-<figcaption>Figure 12: Hamburger Menu Dropdown</figcaption>
+<figcaption>Figure 12: Hamburger Menu Dropdown</figcaption><br><br>
 
 ![Figure 13: Admin Site Navigation](https://media.discordapp.net/attachments/1081311787821043805/1109108726297792582/image4.png)
 <figcaption>Figure 13: Admin Site Navigation</figcaption>
@@ -160,7 +160,7 @@ The wishList page is a useful feature that enables users to keep track of the bo
 The profile page is a user-friendly feature that pops up as a modal from the bootstrap library when clicked, allowing users to edit their profile information easily. They can change various details such as their username, password, first name, and last name. Once they've made their desired changes, they can click "save" to confirm their new profile details. This simple and intuitive interface makes it easy for users to customize their account to their liking, without the need for technical expertise or lengthy tutorials.
 
 ![Figure 17: Profile Modal](https://cdn.discordapp.com/attachments/1081311787821043805/1109110678645657760/image.png)
-<figcaption>Figure 17: Profile Modal</figcaption><br>
+<figcaption>Figure 17: Profile Modal</figcaption><br><br>
 
 ![Figure 18: Profile Modal after hitting “Edit Profile” button](https://cdn.discordapp.com/attachments/1081311787821043805/1109115489277448202/fix_1.jpg)
 <figcaption>
